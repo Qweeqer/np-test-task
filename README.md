@@ -1,6 +1,6 @@
 # Project README - Task for Nova Poshta API Integration
 
-![Project Logo](link_to_logo.png)
+![Project Logo](./public/logo.png)
 
 ## Overview
 
