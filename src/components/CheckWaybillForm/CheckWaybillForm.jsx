@@ -9,7 +9,7 @@ import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 import CheckDeliveryStatus from '../CheckDeliveryStatus/CheckDeliveryStatus';
-import ListWaybills from '../ListWaybills/ListWaybills';
+import UserBills from '../UserBills/UserBills';
 import { ttnInfo } from '../../redux/delivery/operations';
 
 import { Container, Form, Wrapper } from './CheckWaybillForm.styled';
@@ -130,7 +130,7 @@ const CheckWaybillForm = () => {
       </Form>
       <Container>
         <CheckDeliveryStatus />
-        <ListWaybills changeValue={changeValue} />
+        <UserBills changeValue={changeValue} />
       </Container>
     </Wrapper>
   );
